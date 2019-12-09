@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/backgroundcollepsbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+    <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            app:layout_constraintBottom_toTopOf="parent"
+            android:layout_below="@+id/tolbar"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/activity_custom_order">
+
+    </ListView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_add_white"
+            android:tint="@android:color/white"
+            android:elevation="0dp"
+            android:backgroundTint="#4E525B"
+            app:fabCustomSize="80dp"
+           />
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

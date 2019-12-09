@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/backgroundcollepsbar"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            android:id="@+id/lay_pertama"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+                android:id="@+id/pertama"
+                android:layout_width="160dp"
+                android:layout_margin="10dp"
+                android:layout_height="190dp">
+            <LinearLayout
+                    android:id="@+id/menu"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                <ImageView
+                        android:id="@+id/mug"
+                        android:layout_width="64dp"
+                        android:background="@drawable/circlebackgroundterracotta"
+                        android:src="@drawable/mugsmall"
+                        android:padding="10dp"
+                        android:layout_height="64dp" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="User"
+                        android:textStyle="bold" />
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorQueen"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:textColor="@color/colorligtgrey"
+                        android:text="it's Your Profile, Check Your Account"
+                        android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+                android:id="@+id/kedua"
+                android:layout_width="160dp"
+                android:layout_margin="10dp"
+                android:layout_height="190dp">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/circlebackgroundblue"
+                        android:padding="10dp"
+                        android:src="@drawable/mail" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="menu"
+                        android:layout_marginTop="10dp"
+                />
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorQueen"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Create Activity On here "
+                        android:textColor="@color/colorligtgrey"
+                        android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/lay_kedua"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+                android:id="@+id/ketiga"
+                android:layout_width="160dp"
+                android:layout_margin="10dp"
+                android:layout_height="190dp">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                <ImageView
+                        android:layout_width="64dp"
+                        android:background="@drawable/circlebackgroundpurple"
+                        android:src="@drawable/pin"
+                        android:padding="10dp"
+                        android:layout_height="64dp" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="User"
+                        android:textStyle="bold" />
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorQueen"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:textColor="@color/colorligtgrey"
+                        android:text="it's Your Profile, Check Your Account"
+                        android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+                android:id="@+id/keempat"
+                android:layout_width="160dp"
+                android:layout_margin="10dp"
+                android:layout_height="190dp">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/circlebackgrounddarklategray"
+                        android:padding="10dp"
+                        android:src="@drawable/star" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="Message"
+                        android:layout_marginTop="10dp" />
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorQueen"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Check Your Message Activity On here "
+                        android:textColor="@color/colorligtgrey"
+                        android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/lay_ketiga"
+            android:layout_width="match_parent"
+
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+                android:id="@+id/kelima"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="190dp">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/circlebackgroundlayterkahir"
+                        android:padding="10dp"
+                        android:src="@drawable/bell" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="Message"
+                        android:layout_marginTop="10dp" />
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorQueen"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Check Your Message Activity On here "
+                        android:textColor="@color/colorligtgrey"
+                        android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                    android:id="@+id/btnexit"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/iniexitpng"
+                    android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>

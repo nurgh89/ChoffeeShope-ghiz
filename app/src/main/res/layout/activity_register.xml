@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/layerregister"
+        android:background="@drawable/gradient_animation"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:id="@+id/laypertamaregis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="40dp">
+
+        <TextView
+                android:id="@+id/txt_loginregis"
+                android:text="Sign In"
+                android:textColor="#3b2f29"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <LinearLayout
+                android:id="@+id/laykeduaregis"
+                android:layout_below="@+id/txt_loginregis"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:id="@+id/layketigaregis"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/txt_usernameregis"
+                        android:layout_width="wrap_content"
+                        android:textSize="15dp"
+                        android:text="username"
+                        android:textStyle="bold"
+                        android:textColor="#3b2f29"
+                        android:textColorHint="@color/colortransparent"
+                        android:textAllCaps="true"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_height="wrap_content"/>
+                <EditText
+                        android:id="@+id/edt_usernameregis"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/et_bg"
+                        android:fontFamily="sans-serif-medium"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:textColor="#3b2f29"
+                        android:textSize="15sp"
+                        android:layout_height="40dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/laykeempatregis"
+                android:layout_below="@+id/laykeduaregis"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:id="@+id/laykelimaregis"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/txt_emailregis"
+                        android:layout_width="wrap_content"
+                        android:textSize="15dp"
+                        android:text="e-mail"
+                        android:textStyle="bold"
+                        android:textColor="#3b2f29"
+                        android:textColorHint="@color/colortransparent"
+                        android:textAllCaps="true"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_height="wrap_content"/>
+                <EditText
+                        android:id="@+id/edt_emailregis"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/et_bg"
+                        android:fontFamily="sans-serif-medium"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:textColor="#3b2f29"
+                        android:textSize="15sp"
+                        android:layout_height="40dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/laykeenamregis"
+                android:layout_below="@+id/laykeempatregis"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:id="@+id/layketujuhregis"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/txt_regispassword"
+                        android:layout_width="wrap_content"
+                        android:textSize="15dp"
+                        android:text="password"
+                        android:textStyle="bold"
+                        android:textColor="#3b2f29"
+                        android:textColorHint="@color/colortransparent"
+                        android:textAllCaps="true"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_height="wrap_content"/>
+                <EditText
+                        android:id="@+id/edt_passregis"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/et_bg"
+                        android:fontFamily="sans-serif-medium"
+                        android:inputType="textPassword"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:textColor="#3b2f29"
+                        android:textSize="15sp"
+                        android:layout_height="40dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/laykeenamregis"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/around_button"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:layout_centerHorizontal="true"
+                android:text="Login now"
+                android:textAllCaps="false"
+                android:textColor="#3b2f29"
+                android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
